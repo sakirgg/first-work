@@ -42,8 +42,13 @@ while run:
     elif command == 'random':
         task = random.choice(RANDOM_TASKS)
         add_todo('Сегодня', task)
+    elif command == 'exit':
+        print('До свидание')
+        break
             
     else:
         print('Неизвестная команда ' )
-        break
+        
+    
+
 
